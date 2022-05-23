@@ -1,0 +1,263 @@
+:root {
+    --basic-color: #fff;
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --background-btn: #F5F4FA;
+    --background-dark: #2F303A;
+    --tel-mail-o-color:#FFFFFF60;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--basic-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*-------------------Хедер--------------*/
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.header{
+    background-color: var(--basic-color);
+}
+
+/*--------------Навигация--------------*/
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-link.current {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--main-text-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+
+.tel-mail-item {
+    list-style: none;
+    font-style: normal;
+}
+
+.tel-mail-link {
+        font-weight: 500;
+        color: var(--secondary-text-color);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+
+.tel-mail-link:hover,
+.tel-mail-link:focus{ 
+    color: var(--accent-color);
+    
+}
+
+/*--------------Герой--------------*/
+
+.hero{
+    background-color: var(--background-dark);
+}
+
+.hero-title{
+    line-height:1.36;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    color: var(--basic-color);
+    text-transform: uppercase;
+}
+.hero-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--basic-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+/* --------------Секция2(Преимущества)--------------*/
+
+.advantages{
+    color: var(--basic-color);
+}
+
+.advantages-item {
+    list-style: none;
+}
+
+.advantages-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.advantages-text {
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/*--------------Секция 3(Чем мы занимаемся)--------------*/
+
+.our_business {
+    background-color: var(--basic-color);
+}
+
+.ob-title1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.ob-item {
+    list-style: none;
+    display: inline
+}
+/*--------------Секция 4(Наша команда)--------------*/
+
+.our_team {
+    background-color: var(--background-btn);
+}
+
+.ot-title1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+
+.ot-item {
+    list-style: none;
+}
+
+.ot-title2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.ot-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+
+}
+/*--------------Портфолио.Секция 1--------------*/
+
+.examples-list{
+    list-style: none;
+}
+
+.examples-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--background-btn);
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+
+.examples-btn:hover,
+.examples-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--basic-color);
+}
+
+/*--------------Портфолио.Секция 2(Каталог)--------------*/
+
+
+.catalog-item {
+    list-style: none;
+}
+
+.catalog-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.catalog-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/*--------------Футер--------------*/
+
+.footer {
+    background-color: var(--background-dark);
+}
+
+.studio {
+    color: var(--basic-color);
+}
+
+.address-item {
+    list-style: none;
+}
+
+.address-link {
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+    font-style: normal;
+}
+
+.color-tel-mail{
+    color: var(--tel-mail-o-color);
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
