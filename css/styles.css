@@ -5,7 +5,7 @@
     --accent-color: #2196F3;
     --background-btn: #F5F4FA;
     --background-dark: #2F303A;
-    --tel-mail-o-color:#FFFFFF60;
+    --tel-mail-o-color:#FFFFFF99;
 }
 
 body {
@@ -256,7 +256,7 @@ body {
 
 .color-tel-mail{
     color: var(--tel-mail-o-color);
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
