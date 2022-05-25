@@ -42,8 +42,11 @@ body {
     color: var(--accent-color);
 }
 
-.header{
+.header-container{
     background-color: var(--basic-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
 }
 
 /*--------------Навигация--------------*/
@@ -75,11 +78,11 @@ body {
 }
 
 .tel-mail-link {
-        font-weight: 500;
-        color: var(--secondary-text-color);
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        text-decoration: none;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .tel-mail-link:hover,
@@ -101,6 +104,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--basic-color);
     text-transform: uppercase;
+    text-align: center;
 }
 .hero-btn{
     font-family: inherit;
@@ -110,6 +114,11 @@ body {
     letter-spacing: 0.06em;
     color: var(--basic-color);
     background-color: var(--accent-color);
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-align: center;
     cursor: pointer;
 }
 /* --------------Секция2(Преимущества)--------------*/
