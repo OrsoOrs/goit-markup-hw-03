@@ -23,169 +23,176 @@
   <body>
     <!----------------Хедер---------------->
     <header class="header">
-      <nav class="navigation">
-        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-          <li class="nav-item">
-            <a class="nav-link current" href="./portfolio.html">Портфолио</a>
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
+            <li class="nav-item">
+              <a class="nav-link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="tel-mail">
+          <li class="tel-mail-item">
+            <a class="tel-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+          <li class="tel-mail-item">
+            <a class="tel-mail-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="tel-mail">
-        <li class="tel-mail-item">
-          <a class="tel-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="tel-mail-item">
-          <a class="tel-mail-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!----------------Секция 1---------------->
       <section>
-        <!--Скрыть заголовок(Сортировка)-->
-        <h1 class="visually-hidden">Примеры работ</h1>
-        <ul class="examples-list">
-          <li class="examples-item"><button class="examples-btn" type="button">Все</button></li>
-          <li class="examples-item">
-            <button class="examples-btn" type="button">Веб-сайты</button>
-          </li>
-          <li class="examples-item">
-            <button class="examples-btn" type="button">Приложения</button>
-          </li>
-          <li class="examples-item"><button class="examples-btn" type="button">Дизайн</button></li>
-          <li class="examples-item">
-            <button class="examples-btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <!------------------Секция 2(Каталог)------------------>
-        <ul class="catalog-list">
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster1.jpg"
-              width="370"
-              height="294"
-              alt="Открытый ноутбук"
-            />
-            <h2 class="catalog-title">Технокряк</h2>
-            <p class="catalog-text">Веб-сайт</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster2.jpg"
-              width="370"
-              height="294"
-              alt="Баскетбол"
-            />
-            <h2 class="catalog-title">Постер New Orlean vs Golden Star</h2>
-            <p class="catalog-text">Дизайн</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster3.jpg"
-              width="370"
-              height="294"
-              alt="Лого ресторана"
-            />
-            <h2 class="catalog-title">Ресторан Seafood</h2>
-            <p class="catalog-text">Приложение</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster4.jpg"
-              width="370"
-              height="294"
-              alt="Наушники"
-            />
-            <h2 class="catalog-title">Проект Prime</h2>
-            <p class="catalog-text">Маркетинг</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster5.jpg"
-              width="370"
-              height="294"
-              alt="Боксы"
-            />
-            <h2 class="catalog-title">Проект Boxes</h2>
-            <p class="catalog-text">Приложение</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster6.jpg"
-              width="370"
-              height="294"
-              alt="Монитор с веб-сайтом"
-            />
-            <h2 class="catalog-title">Inspiration has no Borders</h2>
-            <p class="catalog-text">Веб-сайт</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster7.jpg"
-              width="370"
-              height="294"
-              alt="Журнал Limited Edition"
-            />
-            <h2 class="catalog-title">Издание Limited Edition</h2>
-            <p class="catalog-text">Дизайн</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster8.jpg"
-              width="370"
-              height="294"
-              alt="Бирка LAB"
-            />
-            <h2 class="catalog-title">Проект LAB</h2>
-            <p class="catalog-text">Маркетинг</p>
-          </li>
-          <li class="catalog-item">
-            <img
-              class="catalog-img"
-              src="./images/poster9.jpg"
-              width="370"
-              height="294"
-              alt="Делает вид, что пишет"
-            />
-            <h2 class="catalog-title">Growing Business</h2>
-            <p class="catalog-text">Приложение</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Примеры работ</h1>
+          <ul class="examples-list">
+            <li class="examples-item"><button class="examples-btn" type="button">Все</button></li>
+            <li class="examples-item">
+              <button class="examples-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="examples-item">
+              <button class="examples-btn" type="button">Приложения</button>
+            </li>
+            <li class="examples-item">
+              <button class="examples-btn" type="button">Дизайн</button>
+            </li>
+            <li class="examples-item">
+              <button class="examples-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!------------------(Каталог)------------------>
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster1.jpg"
+                width="370"
+                height="294"
+                alt="Открытый ноутбук"
+              />
+              <h2 class="catalog-title">Технокряк</h2>
+              <p class="catalog-text">Веб-сайт</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster2.jpg"
+                width="370"
+                height="294"
+                alt="Баскетбол"
+              />
+              <h2 class="catalog-title">Постер New Orlean vs Golden Star</h2>
+              <p class="catalog-text">Дизайн</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster3.jpg"
+                width="370"
+                height="294"
+                alt="Лого ресторана"
+              />
+              <h2 class="catalog-title">Ресторан Seafood</h2>
+              <p class="catalog-text">Приложение</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster4.jpg"
+                width="370"
+                height="294"
+                alt="Наушники"
+              />
+              <h2 class="catalog-title">Проект Prime</h2>
+              <p class="catalog-text">Маркетинг</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster5.jpg"
+                width="370"
+                height="294"
+                alt="Боксы"
+              />
+              <h2 class="catalog-title">Проект Boxes</h2>
+              <p class="catalog-text">Приложение</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster6.jpg"
+                width="370"
+                height="294"
+                alt="Монитор с веб-сайтом"
+              />
+              <h2 class="catalog-title">Inspiration has no Borders</h2>
+              <p class="catalog-text">Веб-сайт</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster7.jpg"
+                width="370"
+                height="294"
+                alt="Журнал Limited Edition"
+              />
+              <h2 class="catalog-title">Издание Limited Edition</h2>
+              <p class="catalog-text">Дизайн</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster8.jpg"
+                width="370"
+                height="294"
+                alt="Бирка LAB"
+              />
+              <h2 class="catalog-title">Проект LAB</h2>
+              <p class="catalog-text">Маркетинг</p>
+            </li>
+            <li class="catalog-item">
+              <img
+                class="catalog-img"
+                src="./images/poster9.jpg"
+                width="370"
+                height="294"
+                alt="Делает вид, что пишет"
+              />
+              <h2 class="catalog-title">Growing Business</h2>
+              <p class="catalog-text">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
-      >
-      <address class="address">
-        <a class="address-link" href="https://goo.gl/maps/Ti4NWwdso79vjgXU6" target="_blank"
-          >г. Киев, пр-т Леси Украинки, 26</a
+      <div class="container">
+        <a class="logo" href="./index.html"
+          ><span class="web">Web</span><span class="studio">Studio</span></a
         >
-      </address>
-      <address class="tel-mail-address">
-        <ul class="tel-mail">
-          <li class="tel-mail-item">
-            <a class="tel-mail-link color-tel-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="tel-mail-item">
-            <a class="tel-mail-link color-tel-mail" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <a class="address-link" href="https://goo.gl/maps/Ti4NWwdso79vjgXU6" target="_blank"
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
+        </address>
+        <address class="tel-mail-address">
+          <ul class="tel-mail">
+            <li class="tel-mail-item">
+              <a class="tel-mail-link color-tel-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="tel-mail-item">
+              <a class="tel-mail-link color-tel-mail" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
