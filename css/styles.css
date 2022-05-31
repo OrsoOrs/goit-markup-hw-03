@@ -38,7 +38,7 @@ ol {
     overflow: hidden;
     border: 0;
     padding: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0,0,0,0);
     clip-path: inset(50%);
     margin: -1px;
 }
@@ -70,12 +70,27 @@ ol {
 
 /*--------------Навигация--------------*/
 
+.logo {
+    padding: 24px 93px 25px;
+}
 .nav-list{
     list-style: none;
+    display: flex;
+    padding-top: 32px;
+}
+.nav-list .nav-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+.hero-cont{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
-.nav-item{
-    margin-bottom: 50px;
+.navigation {
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-link.current {
@@ -83,6 +98,7 @@ ol {
 }
 
 .nav-link {
+    display: block;
     font-weight: 500;
     color: var(--main-text-color);
     line-height: 1.14;
@@ -95,6 +111,13 @@ ol {
     color: var(--accent-color);
 }
 
+.tel-mail {
+    display: flex;
+}
+
+.tel-mail li:not(:last-child) {
+    margin-right: 50px;
+}
 .tel-mail-item {
     list-style: none;
     font-style: normal;
@@ -242,7 +265,6 @@ ol {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     margin-bottom: 10px;
-    padding-left: auto;
 }
 
 .ot-text {
