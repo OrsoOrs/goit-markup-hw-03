@@ -75,6 +75,10 @@ ol {
     color: var(--accent-color);
 }
 
+.line{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
 /*--------------Навигация--------------*/
 .navigation {
@@ -330,10 +334,18 @@ ol {
     color: var(--secondary-text-color);
 }
 /*--------------Портфолио.Секция 1--------------*/
+.port-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .examples-list{
+    display: flex;
+    justify-content: center;
     list-style: none;
-    margin-bottom: 56px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .examples-btn {
