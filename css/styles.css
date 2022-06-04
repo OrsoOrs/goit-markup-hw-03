@@ -53,6 +53,7 @@ ol {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ececec;
 }
 
 .head-cont {
@@ -75,11 +76,6 @@ ol {
     color: var(--accent-color);
 }
 
-.line{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    border: 1px solid #ececec;
-}
 
 /*--------------Навигация--------------*/
 .navigation {
