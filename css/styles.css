@@ -151,9 +151,6 @@ ol {
     display: flex;
 }
 
-.hero-cont{
-    
-}
 
 .hero-title{
     line-height:1.36;
@@ -181,7 +178,7 @@ ol {
     box-sizing: content-box;
     width: 200px;
     height: 50px;
-    margin: 30px
+    margin-top: 30px;
 }
 .hero-btn:hover{
     background-color: var(--basic-color);
@@ -225,7 +222,6 @@ ol {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    margin-bottom: 30px;
     max-width: 270px;
 }
 /*--------------Секция 3(Чем мы занимаемся)--------------*/
@@ -260,10 +256,6 @@ ol {
     margin-bottom: 0px;
 }
 
-.ob-item {
-    list-style: none;
-    margin-bottom: 30px;
-}
 /*--------------Секция 4(Наша команда)--------------*/
 
 .our_team {
@@ -281,7 +273,6 @@ ol {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
 }
 
 .ot-list {
@@ -307,6 +298,11 @@ ol {
     margin-right: 30px;
 }
 
+.ot-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .ot-title2 {
     font-weight: 500;
     font-size: 16px;
@@ -314,7 +310,6 @@ ol {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 
-    padding-top: 30px;
     margin-bottom: 10px;
     margin-top: 0px;
     text-align: center;
@@ -322,7 +317,6 @@ ol {
 
 .ot-text {
     text-align: center;
-    padding-bottom: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 16px;
@@ -331,6 +325,11 @@ ol {
     color: var(--secondary-text-color);
 }
 /*--------------Портфолио.Секция 1--------------*/
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .port-cont {
     display: flex;
     flex-direction: column;
@@ -340,8 +339,7 @@ ol {
 .examples-list{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .examples-btn {
@@ -357,9 +355,6 @@ ol {
     border: 1px solid transparent;
     padding: 6px 22px 6px 22px;
 }
-.examples-item:not(:last-child){
-    margin-right: 8px;
-}
 
 .examples-btn:hover,
 .examples-btn:focus {
@@ -368,11 +363,14 @@ ol {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.examples-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 /*--------------Портфолио.Секция 2(Каталог)--------------*/
 
 .catalog-list{
     margin-top: 0;
-    margin-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
